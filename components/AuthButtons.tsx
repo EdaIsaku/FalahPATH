@@ -12,7 +12,7 @@ export default function AuthButtons({ role }: AuthButtonsProps) {
   {
     return (
       <Link
-        href={href}
+        href={`/auth/${href}`}
         className="relative inline-flex items-center justify-center px-6 py-2 
              backdrop-blur-md bg-linear-to-r bg-gradient-to-r from-indigo-600 to-fuchsia-500 border border-black/10 text-white 
              rounded-full overflow-hidden transition-all duration-300 group"
